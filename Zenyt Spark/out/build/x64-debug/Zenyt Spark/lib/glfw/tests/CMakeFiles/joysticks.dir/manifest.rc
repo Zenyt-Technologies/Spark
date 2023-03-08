@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/petrn/OneDrive/Dokumenty/GitHub/Spark/Zenyt Spark/out/build/x64-debug/Zenyt Spark/lib/glfw/tests/CMakeFiles/joysticks.dir/embed.manifest"

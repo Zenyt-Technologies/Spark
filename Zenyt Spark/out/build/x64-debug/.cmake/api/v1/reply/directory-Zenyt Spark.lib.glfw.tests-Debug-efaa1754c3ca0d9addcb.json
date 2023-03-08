@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Zenyt Spark/lib/glfw/tests",
+		"source" : "Zenyt Spark/lib/glfw/tests"
+	}
+}

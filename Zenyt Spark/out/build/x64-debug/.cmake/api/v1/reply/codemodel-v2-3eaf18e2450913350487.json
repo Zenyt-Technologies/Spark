@@ -1,0 +1,476 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Zenyt Spark",
+					"childIndexes" : 
+					[
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Zenyt Spark-Debug-518bafdfba469c17b602.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Zenyt Spark",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Zenyt Spark/lib/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Zenyt Spark.lib.glfw-Debug-93586590506c880dd15a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Zenyt Spark/lib/glfw",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "Zenyt Spark/lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Zenyt Spark.lib.glfw.src-Debug-1051863ed8fef668014b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Zenyt Spark/lib/glfw/src",
+					"targetIndexes" : 
+					[
+						8,
+						30
+					]
+				},
+				{
+					"build" : "Zenyt Spark/lib/glfw/examples",
+					"jsonFile" : "directory-Zenyt Spark.lib.glfw.examples-Debug-406147b295dc36e7ca22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Zenyt Spark/lib/glfw/examples",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						10,
+						17,
+						19,
+						21,
+						22,
+						23,
+						31
+					]
+				},
+				{
+					"build" : "Zenyt Spark/lib/glfw/tests",
+					"jsonFile" : "directory-Zenyt Spark.lib.glfw.tests-Debug-efaa1754c3ca0d9addcb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Zenyt Spark/lib/glfw/tests",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18,
+						20,
+						24,
+						25,
+						26,
+						27,
+						28,
+						32
+					]
+				},
+				{
+					"build" : "Zenyt Spark/lib/imgui",
+					"jsonFile" : "directory-Zenyt Spark.lib.imgui-Debug-0f24e563f484b4db5123.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Zenyt Spark/lib/imgui"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Zenyt Spark"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						6
+					],
+					"name" : "Spark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Spark::@19a0331f7f0e14dc4b79",
+					"jsonFile" : "target-Spark-Debug-10d99439def44fc6b470.json",
+					"name" : "Spark",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "boing::@db864224df13f400b66f",
+					"jsonFile" : "target-boing-Debug-b4a0b2af9efbc8fc6735.json",
+					"name" : "boing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "clipboard::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-clipboard-Debug-41bb594c15b90eba7b8c.json",
+					"name" : "clipboard",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cursor::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-cursor-Debug-a0f1d40e75cc1946c641.json",
+					"name" : "cursor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "empty::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-empty-Debug-00c85b0a40d15cd457bd.json",
+					"name" : "empty",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "events::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-events-Debug-f2535b595cb69c33c5ba.json",
+					"name" : "events",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gamma::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-gamma-Debug-4c74bb11d2b46fd39b82.json",
+					"name" : "gamma",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gears::@db864224df13f400b66f",
+					"jsonFile" : "target-gears-Debug-12f5e802c0f0d9a23795.json",
+					"name" : "gears",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@04de22b64c336335762b",
+					"jsonFile" : "target-glfw-Debug-e1daffae9d760b0a63cc.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfwinfo::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-glfwinfo-Debug-31974a66365e3983b8df.json",
+					"name" : "glfwinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heightmap::@db864224df13f400b66f",
+					"jsonFile" : "target-heightmap-Debug-7a7fc15bc19a2c5bad37.json",
+					"name" : "heightmap",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "icon::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-icon-Debug-c46be21372b70009136a.json",
+					"name" : "icon",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "iconify::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-iconify-Debug-6761fa789eb92ee14465.json",
+					"name" : "iconify",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "inputlag::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-inputlag-Debug-e739af74f46e7ef8b1bb.json",
+					"name" : "inputlag",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "joysticks::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-joysticks-Debug-1068ebf9ac419b763555.json",
+					"name" : "joysticks",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "monitors::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-monitors-Debug-3cda19e73464ae3bfdd2.json",
+					"name" : "monitors",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "msaa::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-msaa-Debug-6b567dc47f2fcbff8ce0.json",
+					"name" : "msaa",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "offscreen::@db864224df13f400b66f",
+					"jsonFile" : "target-offscreen-Debug-aabb064df1b2f30af709.json",
+					"name" : "offscreen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "opacity::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-opacity-Debug-69be4abb1a777d2d7a20.json",
+					"name" : "opacity",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "particles::@db864224df13f400b66f",
+					"jsonFile" : "target-particles-Debug-91c98d087e76f999638d.json",
+					"name" : "particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "reopen::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-reopen-Debug-49e0af64fd9629189605.json",
+					"name" : "reopen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sharing::@db864224df13f400b66f",
+					"jsonFile" : "target-sharing-Debug-97439e35c67c5714d701.json",
+					"name" : "sharing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simple::@db864224df13f400b66f",
+					"jsonFile" : "target-simple-Debug-3c4491620c4cd4594feb.json",
+					"name" : "simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "splitview::@db864224df13f400b66f",
+					"jsonFile" : "target-splitview-Debug-86bdacb558c160373c8d.json",
+					"name" : "splitview",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tearing::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-tearing-Debug-cee1f007af356985d3eb.json",
+					"name" : "tearing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "threads::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-threads-Debug-5303fea3c0c9f57ead97.json",
+					"name" : "threads",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "timeout::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-timeout-Debug-75c327cad5710a97b495.json",
+					"name" : "timeout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "title::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-title-Debug-091759fd4a06e0aec0f1.json",
+					"name" : "title",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "triangle-vulkan::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-triangle-vulkan-Debug-54caced76c4070b4fa91.json",
+					"name" : "triangle-vulkan",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@43c57f89fb1feb9d0e69",
+					"jsonFile" : "target-uninstall-Debug-a037cf69f08675351a01.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@04de22b64c336335762b",
+					"jsonFile" : "target-update_mappings-Debug-58fa092000e76dc79678.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "wave::@db864224df13f400b66f",
+					"jsonFile" : "target-wave-Debug-5ab0ee10aa0be622db66.json",
+					"name" : "wave",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "windows::@78c8d6889a0ba7b74dbf",
+					"jsonFile" : "target-windows-Debug-110e9105b4fe8fcf27a5.json",
+					"name" : "windows",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/petrn/OneDrive/Dokumenty/GitHub/Spark/Zenyt Spark/out/build/x64-debug",
+		"source" : "C:/Users/petrn/OneDrive/Dokumenty/GitHub/Spark/Zenyt Spark"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
